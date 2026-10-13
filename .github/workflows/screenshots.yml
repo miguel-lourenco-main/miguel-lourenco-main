@@ -1,0 +1,32 @@
+# Monthly: re-capture the live products and recompose the Work cards.
+name: Work cards
+
+on:
+  schedule:
+    - cron: "30 4 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-art
+  cancel-in-progress: false
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet pillow
+      - run: sh scripts/capture_screenshots.sh data/screenshots
+      - run: python3 scripts/make_work_cards.py data/screenshots assets/work
+      - run: |
+          git config user.name "profile-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add assets/work data/screenshots
+          git diff --cached --quiet || { git commit -m "chore: refresh work cards" && git pull --rebase --quiet && git push; }
