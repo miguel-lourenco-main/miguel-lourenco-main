@@ -1,0 +1,496 @@
+{
+ "generated": "2026-10-12T12:11:23+00:00",
+ "repos": 9,
+ "commits": [
+  {
+   "repo": "my-cv",
+   "iso": "2026-07-29T11:57:50+01:00",
+   "hash": "35f3c42",
+   "subject": "chore: add .cursor cv-bullet-from-image skill"
+  },
+  {
+   "repo": "cash-register",
+   "iso": "2026-07-08T17:47:26+01:00",
+   "hash": "557fb2a",
+   "subject": "Portal the order detail panel so it can be closed on mobile"
+  },
+  {
+   "repo": "cash-register",
+   "iso": "2026-07-08T17:47:26+01:00",
+   "hash": "d624060",
+   "subject": "Allow entering an arbitrary tendered amount at payment"
+  },
+  {
+   "repo": "cash-register",
+   "iso": "2026-07-08T17:22:57+01:00",
+   "hash": "2d3d610",
+   "subject": "Add back button to order details for mobile navigation"
+  },
+  {
+   "repo": "cash-register",
+   "iso": "2026-07-06T21:17:01+01:00",
+   "hash": "75fc045",
+   "subject": "docs: rewrite README around local-first usage; note Supabase is shared-mode only"
+  },
+  {
+   "repo": "cash-register",
+   "iso": "2026-07-06T20:32:36+01:00",
+   "hash": "077f494",
+   "subject": "fix: pin Caixa tabs to scroll top + restore mobile bottom-nav clearance"
+  },
+  {
+   "repo": "cash-register",
+   "iso": "2026-07-06T19:35:32+01:00",
+   "hash": "ed483d3",
+   "subject": "fix: cart panel fills the viewport and stays put while the product list scrolls"
+  },
+  {
+   "repo": "cash-register",
+   "iso": "2026-07-06T19:12:41+01:00",
+   "hash": "ba3bdbe",
+   "subject": "fix: mobile cart scroll + product-edit modal hidden behind header"
+  },
+  {
+   "repo": "cash-register",
+   "iso": "2026-07-06T18:25:02+01:00",
+   "hash": "93a65c0",
+   "subject": "feat(#4): improve product management — density, modal edit, hover overlay"
+  },
+  {
+   "repo": "cash-register",
+   "iso": "2026-07-06T18:18:50+01:00",
+   "hash": "28b2411",
+   "subject": "feat(#8): unify header and sidebar into one top app bar"
+  },
+  {
+   "repo": "cash-register",
+   "iso": "2026-07-06T17:51:25+01:00",
+   "hash": "74048c0",
+   "subject": "feat: bundle product photos as static assets for local mode"
+  },
+  {
+   "repo": "cash-register",
+   "iso": "2026-07-06T17:51:25+01:00",
+   "hash": "90bf162",
+   "subject": "feat: add single-device local mode (default), no backend required"
+  },
+  {
+   "repo": "cash-register",
+   "iso": "2026-07-06T17:38:16+01:00",
+   "hash": "fda90ef",
+   "subject": "fix(#5): highlight the active nav item on all routes"
+  },
+  {
+   "repo": "cash-register",
+   "iso": "2026-07-06T17:38:16+01:00",
+   "hash": "89fbb9b",
+   "subject": "feat(#6): roll out rise-on-hover to primary controls"
+  },
+  {
+   "repo": "cash-register",
+   "iso": "2026-07-06T17:38:16+01:00",
+   "hash": "4112087",
+   "subject": "fix(#9): make cart item-count badge visible in dark mode"
+  },
+  {
+   "repo": "cash-register",
+   "iso": "2026-07-06T16:20:20+01:00",
+   "hash": "ffdbf2c",
+   "subject": "docs: document NEXT_PUBLIC_SHOW_DEMO_CREDENTIALS flag"
+  },
+  {
+   "repo": "cash-register",
+   "iso": "2026-07-06T15:58:00+01:00",
+   "hash": "f67ca7d",
+   "subject": "feat: show demo account codes on login, gated to demo mode / env flag"
+  },
+  {
+   "repo": "ui-components",
+   "iso": "2026-07-06T00:35:23+01:00",
+   "hash": "22de888",
+   "subject": "feat(requests): baseline diffs, version history, and API-compat checks"
+  },
+  {
+   "repo": "ui-components",
+   "iso": "2026-07-06T00:35:15+01:00",
+   "hash": "3827eea",
+   "subject": "feat(playground): AST-based compile core, Monaco types, and live code mode"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-07-04T16:11:34+01:00",
+   "hash": "7b862b5",
+   "subject": "ci: style local CI jobs with report-style logging"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-06-30T21:16:10+01:00",
+   "hash": "9a10f93",
+   "subject": "chore: update .gitignore and edgen-code readme"
+  },
+  {
+   "repo": "cash-register",
+   "iso": "2026-06-30T19:44:55+01:00",
+   "hash": "d46c139",
+   "subject": "feat: static demo-mode fallback when Supabase is unreachable"
+  },
+  {
+   "repo": "agentic-hub",
+   "iso": "2026-06-22T00:59:15+01:00",
+   "hash": "e8a1e59",
+   "subject": "chore: gitignore TypeScript build cache (*.tsbuildinfo)"
+  },
+  {
+   "repo": "agentic-hub",
+   "iso": "2026-06-19T21:12:14+01:00",
+   "hash": "16ddbf8",
+   "subject": "feat(agents): UI improvements for the agents list & detail (issue #1)"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-06-18T13:58:04+01:00",
+   "hash": "42d921b",
+   "subject": "fix(readmes): add static READMEs for cash-register & job-ai-hub"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-06-16T15:59:33+01:00",
+   "hash": "8cae2bb",
+   "subject": "ci(pages): restore normal build-based pipeline"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-06-16T15:28:55+01:00",
+   "hash": "a0ca39d",
+   "subject": "chore(images): cash-register recapture with product photos loaded"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-06-16T15:28:55+01:00",
+   "hash": "3e1bd0c",
+   "subject": "feat(skill): wait for images to load + flag image errors"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-06-16T14:40:43+01:00",
+   "hash": "58611c3",
+   "subject": "chore(images): cash-register used-state recapture + marketing order"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-06-16T14:40:42+01:00",
+   "hash": "0e8c4b7",
+   "subject": "feat(skill): marketing-ordered imagesFirst + used-state capture"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-06-16T03:01:14+01:00",
+   "hash": "e456d5d",
+   "subject": "chore(images): capture all marketing sections for sonora & agentic-hub"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-06-16T03:01:14+01:00",
+   "hash": "5ea53ba",
+   "subject": "feat(skill): auto-capture every marketing-page section"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-06-16T02:40:26+01:00",
+   "hash": "9439886",
+   "subject": "chore(images): refresh project screenshots as focused section crops"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-06-16T02:40:07+01:00",
+   "hash": "e968e2b",
+   "subject": "feat(skill): focused section/element capture for project images"
+  },
+  {
+   "repo": "sonora",
+   "iso": "2026-06-16T00:04:18+01:00",
+   "hash": "b8578453",
+   "subject": "fix: restore real three.js types so CI typecheck passes"
+  },
+  {
+   "repo": "ui-components",
+   "iso": "2026-06-15T15:02:38+01:00",
+   "hash": "2d23301",
+   "subject": "feat: merged final landing — Typeset base + Darkroom transmission"
+  },
+  {
+   "repo": "sonora",
+   "iso": "2026-06-15T14:59:53+01:00",
+   "hash": "2a848400",
+   "subject": "fix: refactored imported ci template for quality jobs used for this project"
+  },
+  {
+   "repo": "sonora",
+   "iso": "2026-06-15T14:57:29+01:00",
+   "hash": "20298886",
+   "subject": "fix: fixed wrong reference for submodule"
+  },
+  {
+   "repo": "sonora",
+   "iso": "2026-06-15T14:54:31+01:00",
+   "hash": "4d080c69",
+   "subject": "feat: updated submodule reference"
+  },
+  {
+   "repo": "sonora",
+   "iso": "2026-06-15T14:48:16+01:00",
+   "hash": "1f51f1c8",
+   "subject": "fix: update floating tomes positioning in hero component"
+  },
+  {
+   "repo": "agentic-hub",
+   "iso": "2026-06-15T14:11:33+01:00",
+   "hash": "9869227",
+   "subject": "chore: add CI fix jobs to improve pipeline stability"
+  },
+  {
+   "repo": "agentic-hub",
+   "iso": "2026-06-15T14:03:40+01:00",
+   "hash": "0861c08",
+   "subject": "feat: updated lock file"
+  },
+  {
+   "repo": "agentic-hub",
+   "iso": "2026-06-15T13:57:05+01:00",
+   "hash": "0b1ce08",
+   "subject": "fix: fixed ci template name"
+  },
+  {
+   "repo": "agentic-hub",
+   "iso": "2026-06-15T13:56:05+01:00",
+   "hash": "645dae8",
+   "subject": "feat: update CI configuration to include AI fix job and enable CI fix variable"
+  },
+  {
+   "repo": "agentic-hub",
+   "iso": "2026-06-15T13:53:03+01:00",
+   "hash": "4a80084",
+   "subject": "feat: enhance configuration and styles for improved performance and design"
+  },
+  {
+   "repo": "sonora",
+   "iso": "2026-06-14T20:35:50+01:00",
+   "hash": "956e4c9e",
+   "subject": "feat: hero centrepiece — centred headline ringed by floating leather tomes"
+  },
+  {
+   "repo": "sonora",
+   "iso": "2026-06-14T20:22:00+01:00",
+   "hash": "71ad6fd5",
+   "subject": "Revert \"feat: illuminated open-book centrepiece + storybook polish on app pages\""
+  },
+  {
+   "repo": "sonora",
+   "iso": "2026-06-14T19:31:35+01:00",
+   "hash": "de26c8ab",
+   "subject": "feat: illuminated open-book centrepiece + storybook polish on app pages"
+  },
+  {
+   "repo": "cash-register",
+   "iso": "2026-06-14T19:20:45+01:00",
+   "hash": "73ddf8c",
+   "subject": "Created a new version, more curated that properly leverrages animation for a smooth userr experience. It also add relevant on theme components, that add life to the web page."
+  },
+  {
+   "repo": "ui-components",
+   "iso": "2026-06-14T03:22:26+01:00",
+   "hash": "fc48c00",
+   "subject": "feat: TYPESET landing — kinetic editorial typography redesign"
+  },
+  {
+   "repo": "ui-components",
+   "iso": "2026-06-14T03:14:56+01:00",
+   "hash": "5df0870",
+   "subject": "feat: THE MATERIAL LAB landing — WebGL substance redesign"
+  },
+  {
+   "repo": "ui-components",
+   "iso": "2026-06-14T02:43:13+01:00",
+   "hash": "7927626",
+   "subject": "chore: redesign foundation — animation deps + motion infra + code-splitting"
+  },
+  {
+   "repo": "sonora",
+   "iso": "2026-06-14T02:40:23+01:00",
+   "hash": "c459c50c",
+   "subject": "feat: awwwards-grade landing redesign — \"The page that listens\""
+  },
+  {
+   "repo": "my-oflat",
+   "iso": "2026-06-14T01:25:09+01:00",
+   "hash": "20cb77c",
+   "subject": "feat(oflat): \"Aurora Automata\" awwwards-grade reskin"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-06-13T05:18:18+01:00",
+   "hash": "5c1ba22",
+   "subject": "ci(pages): quote curl line so YAML treats it as a string"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-06-13T05:15:56+01:00",
+   "hash": "3e1fc51",
+   "subject": "ci(pages): temporary no-build deploy from prebuilt package (IPv6-only network)"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-06-13T02:57:22+01:00",
+   "hash": "3097691",
+   "subject": "ci: rebuild variants to pick up laptop-detection height-cap fix"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-06-13T02:56:59+01:00",
+   "hash": "a880af6",
+   "subject": "fix(shell): drop 1200px viewport-height cap from laptop/desktop detection"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-06-13T02:40:11+01:00",
+   "hash": "6e20ebf",
+   "subject": "ci(pages): enable NEXT_PUBLIC_ENABLE_3D for warp/visor variant builds"
+  },
+  {
+   "repo": "cash-register",
+   "iso": "2026-06-13T02:37:18+01:00",
+   "hash": "d58ef89",
+   "subject": "feat: bold block redesign, payment flow, analytics, search, and shift summaries"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-06-13T02:26:32+01:00",
+   "hash": "fc769bb",
+   "subject": "ci(pages): deploy warp + visor variants alongside main for A/B testing"
+  },
+  {
+   "repo": "ui-components",
+   "iso": "2026-06-13T01:35:21+01:00",
+   "hash": "505098d",
+   "subject": "feat: cinematic dark redesign of the app shell"
+  },
+  {
+   "repo": "ui-components",
+   "iso": "2026-06-13T01:35:21+01:00",
+   "hash": "e6529aa",
+   "subject": "feat: add request preview components for MCP review UI"
+  },
+  {
+   "repo": "sonora",
+   "iso": "2026-06-13T01:24:25+01:00",
+   "hash": "0ebccfee",
+   "subject": "removed gradient overlay in hero"
+  },
+  {
+   "repo": "sonora",
+   "iso": "2026-06-13T01:03:24+01:00",
+   "hash": "6ddc70f4",
+   "subject": "fix: word-accurate narration highlighting for pre-recorded samples"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-06-13T00:19:57+01:00",
+   "hash": "ddd079c",
+   "subject": "feat(intro): warp arrival variant"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-06-13T00:19:56+01:00",
+   "hash": "56032ac",
+   "subject": "feat(intro): HUD visor boot-up variant"
+  },
+  {
+   "repo": "agentic-hub",
+   "iso": "2026-06-13T00:18:05+01:00",
+   "hash": "976c8fa",
+   "subject": "feat: redesign app logo with brand-aligned constellation mark"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-06-13T00:13:29+01:00",
+   "hash": "dc7bb17",
+   "subject": "feat(intro): branded loading-sequence base + Chakra Petch brand font"
+  },
+  {
+   "repo": "sonora",
+   "iso": "2026-06-13T00:07:22+01:00",
+   "hash": "ee44f9c2",
+   "subject": "feat: enchanted-storybook UI upscale across all screens"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-06-12T23:42:52+01:00",
+   "hash": "fdc2ce5",
+   "subject": "fix(systeme): language switch reloads fresh from the start"
+  },
+  {
+   "repo": "agentic-hub",
+   "iso": "2026-06-12T23:39:56+01:00",
+   "hash": "47efe40",
+   "subject": "feat: upscale design with Web3 dark theme and demo marketplace surfaces"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-06-12T23:37:17+01:00",
+   "hash": "46242bd",
+   "subject": "fix(systeme): switch language via full page load"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-06-12T23:27:15+01:00",
+   "hash": "43e1c64",
+   "subject": "feat(3d): full-screen 2D page handoff, HUD theming, cleaner transitions"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-06-12T22:19:47+01:00",
+   "hash": "f207b59",
+   "subject": "fix(systeme): make language switching feel in-place"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-06-12T21:59:58+01:00",
+   "hash": "31af581",
+   "subject": "fix(systeme): bind ScrollTriggers to the real scroller; allow dialog scroll"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-06-12T21:29:31+01:00",
+   "hash": "25c55b5",
+   "subject": "feat(systeme): add brand icons to contact endpoints, drop footer year"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-06-12T21:29:24+01:00",
+   "hash": "4488d52",
+   "subject": "feat(brutalist): preview panel + performance pass"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-06-12T17:58:29+01:00",
+   "hash": "4416e6a",
+   "subject": "fix(organic): restore native cursors (foundation forces cursor:none)"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-06-12T17:58:13+01:00",
+   "hash": "de8bf6c",
+   "subject": "fix(systeme): restore native cursors (foundation forces cursor:none)"
+  }
+ ],
+ "loc": {
+  "TypeScript": 100413,
+  "OCaml": 18055,
+  "JavaScript": 4061,
+  "CSS": 3763,
+  "SQL": 664,
+  "HTML": 219,
+  "Shell": 63,
+  "Python": 49
+ }
+}
