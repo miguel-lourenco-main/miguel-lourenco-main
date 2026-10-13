@@ -1,0 +1,49 @@
+# Nightly: redraw the two artworks (skyline, constellation) from the owner's public repos and
+# contribution calendar, stamp the colophon, refresh the recent-work cache (data/session.json), commit. Needs only the built-in GITHUB_TOKEN.
+name: Redraw data art
+
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["scripts/**"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-art
+  cancel-in-progress: true
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Draw
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LOGIN: ${{ github.repository_owner }}
+          ART_WORK: ${{ runner.temp }}/art
+        run: sh scripts/draw_all.sh
+      - name: Refresh recent-work cache
+        continue-on-error: true   # the artworks still ship if this fails; session.yml retries hourly
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LOGIN: ${{ github.repository_owner }}
+          ART_WORK: ${{ runner.temp }}/art   # reuses the clones draw_all.sh just made
+        run: python3 -I scripts/build_session.py --clone
+      - name: Validate
+        run: for f in assets/*.svg; do python3 -I -c 'import xml.dom.minidom,sys; xml.dom.minidom.parse(sys.argv[1])' "$f"; done
+      - name: Commit
+        run: |
+          git config user.name "profile-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add assets/skyline.svg assets/constellation.svg assets/session.svg data/session.json README.md
+          git diff --cached --quiet || { git commit -m "chore: nightly redraw of the data art" && git pull --rebase --quiet && git push; }
