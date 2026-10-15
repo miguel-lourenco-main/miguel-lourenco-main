@@ -25,5 +25,3 @@ an AI Engineer with a Full-Stack background · Lisbon
 ![A finished terminal session: git log of my latest commits across my public repos, today's contribution numbers, and lines of code by language. Refreshed hourly.](assets/session.svg)
 
 [migasoulou@gmail.com](mailto:migasoulou@gmail.com) · [github.com/miguel-lourenco-main](https://github.com/miguel-lourenco-main)
-
-The skyline and constellation are redrawn nightly by [art.yml](.github/workflows/art.yml), the session hourly by [session.yml](.github/workflows/session.yml), the work cards monthly by [screenshots.yml](.github/workflows/screenshots.yml) · last redraw 2026-10-12 12:21 UTC
