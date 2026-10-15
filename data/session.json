@@ -1,7 +1,115 @@
 {
- "generated": "2026-10-14T22:36:05+00:00",
+ "generated": "2026-10-15T14:57:22+00:00",
  "repos": 12,
  "commits": [
+  {
+   "repo": "sonora",
+   "iso": "2026-10-15T15:50:22+01:00",
+   "hash": "b15ef6af",
+   "subject": "feat(voices): show remaining ElevenLabs character credits"
+  },
+  {
+   "repo": "sonora",
+   "iso": "2026-10-15T15:50:03+01:00",
+   "hash": "3a79e45e",
+   "subject": "refactor(voices): remove the created_at column from the voices list"
+  },
+  {
+   "repo": "sonora",
+   "iso": "2026-10-15T15:49:50+01:00",
+   "hash": "62fc6fe8",
+   "subject": "feat(voices): add test connection button for the ElevenLabs key"
+  },
+  {
+   "repo": "claude-skills",
+   "iso": "2026-10-15T15:49:21+01:00",
+   "hash": "8ed5785",
+   "subject": "chore(ui-ux-studio): bump to 0.4.1 for the gallery screenshots and HTML panel"
+  },
+  {
+   "repo": "claude-skills",
+   "iso": "2026-10-15T15:47:58+01:00",
+   "hash": "b456e78",
+   "subject": "feat(gallery): show the extracted HTML of each reference (#1)"
+  },
+  {
+   "repo": "claude-skills",
+   "iso": "2026-10-15T15:45:18+01:00",
+   "hash": "ac3ced0",
+   "subject": "feat(gallery): show every screenshot of a reference (#1)"
+  },
+  {
+   "repo": "cash-register",
+   "iso": "2026-10-15T15:45:07+01:00",
+   "hash": "6e17da0",
+   "subject": "fix(caixa): keep fly-to-cart price tags under the mobile cart bar"
+  },
+  {
+   "repo": "cash-register",
+   "iso": "2026-10-15T15:45:07+01:00",
+   "hash": "37b72f4",
+   "subject": "fix(caixa): show full product names on cards"
+  },
+  {
+   "repo": "cash-register",
+   "iso": "2026-10-15T15:45:07+01:00",
+   "hash": "9213133",
+   "subject": "fix(pages): export each route as <route>/index.html so deep links load"
+  },
+  {
+   "repo": "edgentranslate",
+   "iso": "2026-10-15T15:38:00+01:00",
+   "hash": "ded5d31",
+   "subject": "feat(hero): add es/fr sample translations and a per-language manifest"
+  },
+  {
+   "repo": "agentic-hub",
+   "iso": "2026-10-15T15:33:37+01:00",
+   "hash": "ea60866",
+   "subject": "fix(ui): real footer destinations and one card CTA label"
+  },
+  {
+   "repo": "edgentranslate",
+   "iso": "2026-10-15T15:33:24+01:00",
+   "hash": "16b20d4",
+   "subject": "fix(pdf): load the PDF.js worker from an absolute URL"
+  },
+  {
+   "repo": "agentic-hub",
+   "iso": "2026-10-15T15:33:05+01:00",
+   "hash": "fc0e4d7",
+   "subject": "feat(agents): price and rating filters, URL-synced category filtering"
+  },
+  {
+   "repo": "agentic-hub",
+   "iso": "2026-10-15T15:31:37+01:00",
+   "hash": "8c6e92a",
+   "subject": "fix(agents): keep back button clear of the category icon on phones"
+  },
+  {
+   "repo": "edgentranslate",
+   "iso": "2026-10-15T15:28:59+01:00",
+   "hash": "fa1275b",
+   "subject": "fix(hero): show the clicked sample file instead of the previous one"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-10-15T15:28:03+01:00",
+   "hash": "c838001",
+   "subject": "fix(i18n): translate hard-coded strings in the rendered UI"
+  },
+  {
+   "repo": "edgentranslate",
+   "iso": "2026-10-15T15:27:49+01:00",
+   "hash": "b0afe8a",
+   "subject": "fix(form): only validate translate form after a submit attempt"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-10-15T15:23:45+01:00",
+   "hash": "33f3316",
+   "subject": "fix(projects): centre the project dialog in the viewport"
+  },
   {
    "repo": "claude-skills",
    "iso": "2026-10-11T15:05:27+01:00",
@@ -373,114 +481,6 @@
    "iso": "2026-07-04T15:04:25+01:00",
    "hash": "46dc139",
    "subject": "feat(prospector): prospect-blueprint redesign deep-dive + audit/research upgrades (0.6.0)"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-07-04T15:04:08+01:00",
-   "hash": "09b5e6a",
-   "subject": "feat(prospector): multi-vertical discover with scope-driven modal defaults"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-07-01T01:09:29+01:00",
-   "hash": "2941434",
-   "subject": "fix(prospector): always-visible worker panel, .env auto-load, marketplace 0.5.0"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-07-01T01:07:40+01:00",
-   "hash": "de1dca3",
-   "subject": "feat(pages): expand marketplace rows to reveal full repo info"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-06-30T23:53:51+01:00",
-   "hash": "0162a69",
-   "subject": "chore(pages): add site/serve.sh local preview"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-06-30T23:19:43+01:00",
-   "hash": "b81e42c",
-   "subject": "feat(pages): turn GitLab Pages root into a marketplace UI hub"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-06-30T21:42:23+01:00",
-   "hash": "5453938",
-   "subject": "feat(prospector): import/export store bundle + local-first agent worker (0.5.0)"
-  },
-  {
-   "repo": "my-cv",
-   "iso": "2026-06-30T21:16:10+01:00",
-   "hash": "9a10f93",
-   "subject": "chore: update .gitignore and edgen-code readme"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-06-30T20:35:45+01:00",
-   "hash": "c34d117",
-   "subject": "fix(prospector): update primary Fly region from Madrid to Paris for deployment"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-06-30T19:47:14+01:00",
-   "hash": "3f97fed",
-   "subject": "ci(prospector): auto-deploy to Fly.io on default-branch commits"
-  },
-  {
-   "repo": "cash-register",
-   "iso": "2026-06-30T19:44:55+01:00",
-   "hash": "d46c139",
-   "subject": "feat: static demo-mode fallback when Supabase is unreachable"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-06-27T13:24:11+01:00",
-   "hash": "bb0e67b",
-   "subject": "chore(prospector): add Fly.io deploy config (fly.toml)"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-06-27T13:22:02+01:00",
-   "hash": "843cb87",
-   "subject": "feat(prospector): hosted app — password auth, container deploy, outreach workspace (0.4.0)"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-06-25T01:09:46+01:00",
-   "hash": "3702b02",
-   "subject": "feat(prospector): standalone app via headless claude + dashboard & qualification upgrades (0.3.0)"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-06-24T10:46:33+01:00",
-   "hash": "d08ff68",
-   "subject": "feat(prospector): live per-item progress for long-running actions"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-06-23T01:11:32+01:00",
-   "hash": "e9db76f",
-   "subject": "prospector 0.2.0: real audit + hunt lead-qualification + dashboard"
-  },
-  {
-   "repo": "agentic-hub",
-   "iso": "2026-06-22T00:59:15+01:00",
-   "hash": "e8a1e59",
-   "subject": "chore: gitignore TypeScript build cache (*.tsbuildinfo)"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-06-21T20:42:44+01:00",
-   "hash": "2222115",
-   "subject": "feat(prospector): add lead-gen plugin with skills-driven HTML dashboard"
-  },
-  {
-   "repo": "agentic-hub",
-   "iso": "2026-06-19T21:12:14+01:00",
-   "hash": "16ddbf8",
-   "subject": "feat(agents): UI improvements for the agents list & detail (issue #1)"
   }
  ],
  "loc": {
