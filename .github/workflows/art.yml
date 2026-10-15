@@ -1,5 +1,5 @@
 # Nightly: redraw the two artworks (skyline, constellation) from the owner's public repos and
-# contribution calendar, stamp the colophon, refresh the recent-work cache (data/session.json), commit. Needs only the built-in GITHUB_TOKEN.
+# contribution calendar, refresh the recent-work cache (data/session.json), commit. Needs only the built-in GITHUB_TOKEN.
 name: Redraw data art
 
 on:
