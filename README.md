@@ -24,25 +24,6 @@ an AI Engineer with a Full-Stack background · Lisbon
 
 ![A finished terminal session: git log of my latest commits across my public repos, today's contribution numbers, and lines of code by language. Refreshed hourly.](assets/session.svg)
 
-plain text
-
-```console
-$ git log --since="180 days ago" --oneline --author=miguel
-35f3c42  my-cv           chore: add .cursor cv-bullet-from-image skill                                                2mo ago
-557fb2a  cash-register   Portal the order detail panel so it can be closed on mobile                                  3mo ago
-d624060  cash-register   Allow entering an arbitrary tendered amount at payment                                       3mo ago
-2d3d610  cash-register   Add back button to order details for mobile navigation                                       3mo ago
-22de888  ui-components   feat(requests): baseline diffs, version history, and API-compat checks                       3mo ago
-3827eea  ui-components   feat(playground): AST-based compile core, Monaco types, and live code mode                   3mo ago
-7b862b5  my-cv           ci: style local CI jobs with report-style logging                                            3mo ago
-9a10f93  my-cv           chore: update .gitignore and edgen-code readme                                               3mo ago
-$ contributions --today
-today 0 · this week 37 · last 30 days 401 · streak 1d · 3,093 in the last year
-$ wc -l --by-language ~/src
-127,287 lines · TypeScript 100.4k · OCaml 18.1k · JavaScript 4.1k · CSS 3.8k · SQL 0.7k
-$
-```
-
 [migasoulou@gmail.com](mailto:migasoulou@gmail.com) · [github.com/miguel-lourenco-main](https://github.com/miguel-lourenco-main)
 
 The skyline and constellation are redrawn nightly by [art.yml](.github/workflows/art.yml), the session hourly by [session.yml](.github/workflows/session.yml), the work cards monthly by [screenshots.yml](.github/workflows/screenshots.yml) · last redraw 2026-10-12 12:21 UTC
