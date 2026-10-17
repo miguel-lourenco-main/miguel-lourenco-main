@@ -1,7 +1,319 @@
 {
- "generated": "2026-10-16T07:15:10+00:00",
+ "generated": "2026-10-17T06:08:34+00:00",
  "repos": 12,
  "commits": [
+  {
+   "repo": "edgentranslate",
+   "iso": "2026-10-16T22:51:08+01:00",
+   "hash": "394a2e6",
+   "subject": "fix(engine): never end a chunk on a Markdown heading"
+  },
+  {
+   "repo": "edgentranslate",
+   "iso": "2026-10-16T22:45:14+01:00",
+   "hash": "2cd0551",
+   "subject": "ci-test: build ci-test/legacy-source as the legacy branch (do not merge)"
+  },
+  {
+   "repo": "edgentranslate",
+   "iso": "2026-10-16T22:44:09+01:00",
+   "hash": "1af9786",
+   "subject": "ci-test: run the legacy build and pages assembly on ci-test/* (do not merge)"
+  },
+  {
+   "repo": "edgentranslate",
+   "iso": "2026-10-16T22:43:47+01:00",
+   "hash": "9769738",
+   "subject": "feat(header): add a link between the current and legacy UI"
+  },
+  {
+   "repo": "edgentranslate",
+   "iso": "2026-10-16T22:43:47+01:00",
+   "hash": "5a043ef",
+   "subject": "ci: build the legacy branch under /legacy on GitLab Pages"
+  },
+  {
+   "repo": "edgentranslate",
+   "iso": "2026-10-16T22:42:38+01:00",
+   "hash": "b0322ae",
+   "subject": "fix(compare): keep the left edge of a wide DOCX page reachable"
+  },
+  {
+   "repo": "agentic-hub",
+   "iso": "2026-10-16T19:57:30+01:00",
+   "hash": "5c300ea",
+   "subject": "chore(infra): bump to consumer/agentichub 31a7e961 — Claude Code on the subscription replaces Cursor"
+  },
+  {
+   "repo": "edgentranslate",
+   "iso": "2026-10-16T19:55:38+01:00",
+   "hash": "51985b7",
+   "subject": "chore(infra): pin to consumer/edgentranslate (debd667e), which carries infra main"
+  },
+  {
+   "repo": "cash-register",
+   "iso": "2026-10-16T19:55:33+01:00",
+   "hash": "4c95d2f",
+   "subject": "chore(infra): pin to consumer/cash_register (10c93cf6), which carries infra main"
+  },
+  {
+   "repo": "edgenchat",
+   "iso": "2026-10-16T19:55:29+01:00",
+   "hash": "18b32b8",
+   "subject": "chore(infra): pin to consumer/edgenchat (957b430c), which carries infra main"
+  },
+  {
+   "repo": "ui-components",
+   "iso": "2026-10-16T19:55:24+01:00",
+   "hash": "4408b76",
+   "subject": "chore(infra): pin to consumer/ui-components (0970bc3e), which carries infra main"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-10-16T19:55:19+01:00",
+   "hash": "71f23e9",
+   "subject": "chore(infra): pin to consumer/my-cv (c73997d5), which carries infra main"
+  },
+  {
+   "repo": "edgentranslate",
+   "iso": "2026-10-16T19:25:14+01:00",
+   "hash": "6dfc3ff",
+   "subject": "chore(infra): pin to the merged infra main (68644e0f)"
+  },
+  {
+   "repo": "edgentranslate",
+   "iso": "2026-10-16T19:14:37+01:00",
+   "hash": "7a6f0b8",
+   "subject": "chore(infra): bump to 6b0a7a37 — the subscription token is the only credential"
+  },
+  {
+   "repo": "claude-arcade",
+   "iso": "2026-10-16T13:09:24+01:00",
+   "hash": "86de413",
+   "subject": "docs(voxelcraft): the Upturn arc — a DRAFT proposal for the writing gate"
+  },
+  {
+   "repo": "claude-arcade",
+   "iso": "2026-10-16T13:08:29+01:00",
+   "hash": "cc0ed90",
+   "subject": "feat(voxelcraft): errands — the quest engine, phase 1"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-10-16T13:07:26+01:00",
+   "hash": "25023c9",
+   "subject": "feat(3d): prototype holographic windows projected from the hand"
+  },
+  {
+   "repo": "claude-arcade",
+   "iso": "2026-10-16T13:01:50+01:00",
+   "hash": "414b8aa",
+   "subject": "feat(voxelcraft): settlement tiers + spacing — hamlets, villages, dense villages"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-10-16T13:01:49+01:00",
+   "hash": "1ba5c69",
+   "subject": "feat(projects): optional walkthrough video as the first media slide"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-10-16T12:58:30+01:00",
+   "hash": "4b8ec48",
+   "subject": "feat(intro): carry the warp from the name into the screens"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-10-16T12:52:47+01:00",
+   "hash": "e8a7aad",
+   "subject": "feat(projects): \"Featured\" showcase section ahead of the project track"
+  },
+  {
+   "repo": "claude-arcade",
+   "iso": "2026-10-16T12:51:11+01:00",
+   "hash": "7b38843",
+   "subject": "feat(voxelcraft): the ingredient-filter cookbook — work backwards from the satchel"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-10-16T12:48:36+01:00",
+   "hash": "4b1fbbb",
+   "subject": "feat(projects): \"Featured\" filter, selected by default"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-10-16T12:47:05+01:00",
+   "hash": "dd54084",
+   "subject": "feat(projects): add a featured-projects list"
+  },
+  {
+   "repo": "claude-arcade",
+   "iso": "2026-10-16T12:46:46+01:00",
+   "hash": "4043709",
+   "subject": "feat(voxelcraft): save files — carry a world to any browser"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-10-16T12:44:44+01:00",
+   "hash": "d1d2c95",
+   "subject": "fix(3d): drop the duplicate \"Tech Stack\" title on the tech window"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-10-16T12:44:44+01:00",
+   "hash": "396d9b1",
+   "subject": "feat(3d): guide arrows between windows in full-screen mode"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-10-16T12:44:43+01:00",
+   "hash": "c83624e",
+   "subject": "fix(3d): keep the scene usable after leaving a full-screen window"
+  },
+  {
+   "repo": "claude-arcade",
+   "iso": "2026-10-16T12:44:28+01:00",
+   "hash": "626d06e",
+   "subject": "feat(voxelcraft): ore veins — +10% ore, in clusters capped by rarity"
+  },
+  {
+   "repo": "claude-arcade",
+   "iso": "2026-10-16T12:40:37+01:00",
+   "hash": "37ca85e",
+   "subject": "feat(voxelcraft): finite stock and the raider's fork — friend or raider"
+  },
+  {
+   "repo": "cash-register",
+   "iso": "2026-10-16T12:38:57+01:00",
+   "hash": "7911778",
+   "subject": "feat(layout): merge top bar and side rail into one frame"
+  },
+  {
+   "repo": "claude-arcade",
+   "iso": "2026-10-16T12:37:12+01:00",
+   "hash": "3c68454",
+   "subject": "feat(voxelcraft): fair-value trades — priced by worth, skewed by birth and standing"
+  },
+  {
+   "repo": "edgentranslate",
+   "iso": "2026-10-16T12:35:25+01:00",
+   "hash": "d25a61e",
+   "subject": "feat(cli): translate Markdown and TXT files from the command line"
+  },
+  {
+   "repo": "edgentranslate",
+   "iso": "2026-10-16T12:35:25+01:00",
+   "hash": "6631520",
+   "subject": "feat(engine): add a provider-agnostic translation engine"
+  },
+  {
+   "repo": "claude-arcade",
+   "iso": "2026-10-16T12:34:42+01:00",
+   "hash": "a7ba1ac",
+   "subject": "feat(voxelcraft): Standing — what a Living Stead thinks of you"
+  },
+  {
+   "repo": "ui-components",
+   "iso": "2026-10-16T12:32:26+01:00",
+   "hash": "c92b790",
+   "subject": "feat(library): ingest components from other projects' source into a library"
+  },
+  {
+   "repo": "claude-arcade",
+   "iso": "2026-10-16T12:25:56+01:00",
+   "hash": "057f4a1",
+   "subject": "feat(voxelcraft): the water's pull — swimmers always drift down"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-10-16T12:25:36+01:00",
+   "hash": "4e92534",
+   "subject": "fix(projects): make the project dialog a single scroll container"
+  },
+  {
+   "repo": "claude-arcade",
+   "iso": "2026-10-16T12:24:54+01:00",
+   "hash": "2097d5c",
+   "subject": "feat(voxelcraft): saturation — a good meal fills you for longer"
+  },
+  {
+   "repo": "sonora",
+   "iso": "2026-10-16T12:23:49+01:00",
+   "hash": "5a45f16c",
+   "subject": "refactor(voices): play free ElevenLabs samples in voice preview"
+  },
+  {
+   "repo": "claude-arcade",
+   "iso": "2026-10-16T12:22:59+01:00",
+   "hash": "ebd5d0b",
+   "subject": "feat(voxelcraft): the crouch — a lower eye, a shorter box, a gripped rung"
+  },
+  {
+   "repo": "edgentranslate",
+   "iso": "2026-10-16T12:22:15+01:00",
+   "hash": "3d608ea",
+   "subject": "test(e2e): add Playwright checks for file rejection and compare formats"
+  },
+  {
+   "repo": "edgentranslate",
+   "iso": "2026-10-16T12:22:15+01:00",
+   "hash": "07ad148",
+   "subject": "fix(compare): render DOCX and stop passing non-PDFs to react-pdf"
+  },
+  {
+   "repo": "edgentranslate",
+   "iso": "2026-10-16T12:21:56+01:00",
+   "hash": "5a90811",
+   "subject": "fix(dropzone): report the real reason a file was rejected"
+  },
+  {
+   "repo": "claude-skills",
+   "iso": "2026-10-16T12:20:36+01:00",
+   "hash": "46f4c59",
+   "subject": "fix(git-steward): 0.9.2 — never queue a gone branch that still holds unmerged work"
+  },
+  {
+   "repo": "claude-arcade",
+   "iso": "2026-10-16T12:20:27+01:00",
+   "hash": "618ab0d",
+   "subject": "feat(voxelcraft): rarity -> value — one shared worth for every item"
+  },
+  {
+   "repo": "edgenchat",
+   "iso": "2026-10-16T12:17:00+01:00",
+   "hash": "eb782bf",
+   "subject": "fix(chat): wire up voice dictation and text-file attachments in composer"
+  },
+  {
+   "repo": "ui-components",
+   "iso": "2026-10-16T12:15:20+01:00",
+   "hash": "2ae4ca2",
+   "subject": "feat(playground): explain locked resize handles with toolbar hint"
+  },
+  {
+   "repo": "claude-arcade",
+   "iso": "2026-10-16T12:15:03+01:00",
+   "hash": "955283b",
+   "subject": "test(voxelcraft): headless boot suite + a node shim for the pure modules"
+  },
+  {
+   "repo": "claude-arcade",
+   "iso": "2026-10-16T12:15:03+01:00",
+   "hash": "dd129fa",
+   "subject": "docs(voxelcraft): CLAUDE.md + DIRECTION.md, the foundation pair"
+  },
+  {
+   "repo": "claude-skills",
+   "iso": "2026-10-16T10:29:20+01:00",
+   "hash": "0a8f159",
+   "subject": "feat(code-maps): 0.2.0 — architecture-map: the bytecode graph at three granularities, as pages that are also the editor"
+  },
+  {
+   "repo": "edgentranslate",
+   "iso": "2026-10-15T17:45:41+01:00",
+   "hash": "82a6b86",
+   "subject": "fix(pdf): preview docx, text and images in the compare view"
+  },
   {
    "repo": "edgentranslate",
    "iso": "2026-10-15T17:20:47+01:00",
@@ -169,328 +481,16 @@
    "iso": "2026-10-06T21:46:33+01:00",
    "hash": "9b44a74",
    "subject": "feat(git-steward): 0.9.0 — branch-scope, the decision work-items was making by habit"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-10-05T11:51:23+01:00",
-   "hash": "3d11d81",
-   "subject": "fix(log-craft): auditor ignores runner-owned lines; record what the canary pipeline confirmed"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-10-05T11:49:21+01:00",
-   "hash": "d03e453",
-   "subject": "fix(log-craft): count characters without a byte-range regex (alpine's awk rejects it); verify in runner images"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-10-05T11:45:11+01:00",
-   "hash": "0ca8dd3",
-   "subject": "feat(code-maps): 0.1.0 — java-diagrams (class map from bytecode) and execution-trace (one run followed step by step)"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-10-05T11:41:40+01:00",
-   "hash": "a4c71f1",
-   "subject": "feat(log-craft): 0.1.0 — ci-log-design skill: audit and restyle GitLab CI job logs with text art that carries information"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-09-29T14:14:42+01:00",
-   "hash": "e0d654b",
-   "subject": "fix(context-checkpoint): one budget for the whole hook, so it degrades instead of being killed"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-09-29T12:44:37+01:00",
-   "hash": "1b8f834",
-   "subject": "fix(context-checkpoint): read the window from the running model, not from settings"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-09-29T12:30:37+01:00",
-   "hash": "5a65708",
-   "subject": "fix(context-checkpoint): find the key wherever it was put, not at one path"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-09-28T11:44:18+01:00",
-   "hash": "e3554ff",
-   "subject": "feat(context-checkpoint): 0.2.0 — a cheap model digests the context, Jev decides"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-09-27T22:59:39+01:00",
-   "hash": "076a6aa",
-   "subject": "feat(model-router): 0.4.0 — Jev decides the tier of every Agent spawn in a PreToolUse hook, advises on prompts, keeps the last 10 exchanges"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-09-26T19:05:58+01:00",
-   "hash": "cf0b8eb",
-   "subject": "feat(model-router): 0.3.0 — ci-watcher waits with Monitor, Fable is the main-session tier, effort on agents and skills"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-09-25T11:57:28+01:00",
-   "hash": "26e2f7b",
-   "subject": "feat(context-checkpoint): 0.1.0 — a keep-or-compact checkpoint every 15% of context, on cold cache, and at task boundaries"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-09-14T15:20:22+01:00",
-   "hash": "aaf62cc",
-   "subject": "feat(web-design-guides): 0.1.0 — web-designer agent + four skills distilled from Lovable's guides"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-09-13T20:20:32+01:00",
-   "hash": "41331a0",
-   "subject": "feat(model-router): 0.2.0 — bi-weekly per-workstation usage review"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-09-13T20:10:38+01:00",
-   "hash": "241a5b5",
-   "subject": "feat(model-router): 0.1.0 — quota-aware model routing, synced through the marketplace"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-09-13T18:55:43+01:00",
-   "hash": "81c18e7",
-   "subject": "docs(marketing-presentations): the drawn journey gets its own layout cell"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-09-13T01:52:11+01:00",
-   "hash": "e5bb9db",
-   "subject": "docs(marketing-presentations): lessons from a recorded visitor pass (dock frame, leave choreography, in-view edge, calm collar, record-don't-walk)"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-09-12T18:41:33+01:00",
-   "hash": "25d63fd",
-   "subject": "feat(marketing-presentations): 1.1.0 — what a brand-constrained page needs beyond craft"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-09-08T15:59:39+01:00",
-   "hash": "a41b109",
-   "subject": "docs(marketing-presentations): field notes from the first real use (job-hunt-hub landing)"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-09-08T15:37:28+01:00",
-   "hash": "e992724",
-   "subject": "feat(marketing-presentations): package the marketing-page presentation skill as a plugin"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-08-17T22:48:14+01:00",
-   "hash": "cc193a9",
-   "subject": "feat: ui-ux-studio 0.4.0 — ui-adversary skill (adversarial agent critiques a live web UI: multi-viewport screenshots, GIFs, a11y tree, console/network, contrast/tap-target/overflow probes; evidence-backed P0-P3 report)"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-08-17T12:03:49+01:00",
-   "hash": "dd8abb2",
-   "subject": "feat: writing-craft plugin — plain-report skill (zero-knowledge-reader reports; research-informed: inverted pyramid + audit mode)"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-08-10T10:34:57+01:00",
-   "hash": "e019248",
-   "subject": "feat: style-tweaker skill, director variations mode, skill-author standard"
-  },
-  {
-   "repo": "my-cv",
-   "iso": "2026-07-29T11:57:50+01:00",
-   "hash": "35f3c42",
-   "subject": "chore: add .cursor cv-bullet-from-image skill"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-07-20T13:01:27+01:00",
-   "hash": "e1357f5",
-   "subject": "feat(project-genesis): make git setup an explicit interview choice (v0.2.0)"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-07-20T12:51:30+01:00",
-   "hash": "d2d22ca",
-   "subject": "feat(git-steward): v0.8.0 — fold three weeks of self-improve fixes into the deployed plugin"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-07-12T13:48:06+01:00",
-   "hash": "fe04281",
-   "subject": "feat(scroll-world): fork oso95/scroll-world into the marketplace (0.2.0)"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-07-11T18:44:21+01:00",
-   "hash": "9c61322",
-   "subject": "feat(genesis): add docs/FEATURES.md feature ledger to the foundation set (0.2.0)"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-07-11T18:16:11+01:00",
-   "hash": "a46b9be",
-   "subject": "feat(ui-ux-pro-max): vendor the skill into the marketplace (2.5.0)"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-07-11T17:30:37+01:00",
-   "hash": "4a01dac",
-   "subject": "retro(genesis,skill-retro): dogfood skill-retro on the genesis dry-run session"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-07-11T17:30:37+01:00",
-   "hash": "732078a",
-   "subject": "feat(skill-smith): skill-retro — session retrospective for skill refinement (0.1.0)"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-07-11T17:30:37+01:00",
-   "hash": "eadc776",
-   "subject": "feat(project-genesis): genesis skill — AI-native app bootstrapping (0.1.0)"
-  },
-  {
-   "repo": "cash-register",
-   "iso": "2026-07-08T17:47:26+01:00",
-   "hash": "557fb2a",
-   "subject": "Portal the order detail panel so it can be closed on mobile"
-  },
-  {
-   "repo": "cash-register",
-   "iso": "2026-07-08T17:47:26+01:00",
-   "hash": "d624060",
-   "subject": "Allow entering an arbitrary tendered amount at payment"
-  },
-  {
-   "repo": "cash-register",
-   "iso": "2026-07-08T17:22:57+01:00",
-   "hash": "2d3d610",
-   "subject": "Add back button to order details for mobile navigation"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-07-07T16:40:57+01:00",
-   "hash": "f23a613",
-   "subject": "Added marketplace registry for plugin"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-07-07T16:27:26+01:00",
-   "hash": "5c1ce07",
-   "subject": "Added new plugin called llm-mode, meant to capture the essence of how llms operate, especially the things they do right, so that we can capture those model quality into different models"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-07-07T00:00:20+01:00",
-   "hash": "f708c8f",
-   "subject": "feat(prospector): mobile-responsive dashboard"
-  },
-  {
-   "repo": "cash-register",
-   "iso": "2026-07-06T21:17:01+01:00",
-   "hash": "75fc045",
-   "subject": "docs: rewrite README around local-first usage; note Supabase is shared-mode only"
-  },
-  {
-   "repo": "cash-register",
-   "iso": "2026-07-06T20:32:36+01:00",
-   "hash": "077f494",
-   "subject": "fix: pin Caixa tabs to scroll top + restore mobile bottom-nav clearance"
-  },
-  {
-   "repo": "cash-register",
-   "iso": "2026-07-06T19:35:32+01:00",
-   "hash": "ed483d3",
-   "subject": "fix: cart panel fills the viewport and stays put while the product list scrolls"
-  },
-  {
-   "repo": "cash-register",
-   "iso": "2026-07-06T19:12:41+01:00",
-   "hash": "ba3bdbe",
-   "subject": "fix: mobile cart scroll + product-edit modal hidden behind header"
-  },
-  {
-   "repo": "cash-register",
-   "iso": "2026-07-06T18:25:02+01:00",
-   "hash": "93a65c0",
-   "subject": "feat(#4): improve product management — density, modal edit, hover overlay"
-  },
-  {
-   "repo": "cash-register",
-   "iso": "2026-07-06T18:18:50+01:00",
-   "hash": "28b2411",
-   "subject": "feat(#8): unify header and sidebar into one top app bar"
-  },
-  {
-   "repo": "cash-register",
-   "iso": "2026-07-06T17:51:25+01:00",
-   "hash": "74048c0",
-   "subject": "feat: bundle product photos as static assets for local mode"
-  },
-  {
-   "repo": "cash-register",
-   "iso": "2026-07-06T17:51:25+01:00",
-   "hash": "90bf162",
-   "subject": "feat: add single-device local mode (default), no backend required"
-  },
-  {
-   "repo": "cash-register",
-   "iso": "2026-07-06T17:38:16+01:00",
-   "hash": "fda90ef",
-   "subject": "fix(#5): highlight the active nav item on all routes"
-  },
-  {
-   "repo": "cash-register",
-   "iso": "2026-07-06T17:38:16+01:00",
-   "hash": "89fbb9b",
-   "subject": "feat(#6): roll out rise-on-hover to primary controls"
-  },
-  {
-   "repo": "cash-register",
-   "iso": "2026-07-06T17:38:16+01:00",
-   "hash": "4112087",
-   "subject": "fix(#9): make cart item-count badge visible in dark mode"
-  },
-  {
-   "repo": "cash-register",
-   "iso": "2026-07-06T16:20:20+01:00",
-   "hash": "ffdbf2c",
-   "subject": "docs: document NEXT_PUBLIC_SHOW_DEMO_CREDENTIALS flag"
-  },
-  {
-   "repo": "cash-register",
-   "iso": "2026-07-06T15:58:00+01:00",
-   "hash": "f67ca7d",
-   "subject": "feat: show demo account codes on login, gated to demo mode / env flag"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-07-06T01:25:52+01:00",
-   "hash": "4fa7752",
-   "subject": "feat(prospector): lead management + location filters in the dashboard (0.7.0)"
-  },
-  {
-   "repo": "ui-components",
-   "iso": "2026-07-06T00:35:23+01:00",
-   "hash": "22de888",
-   "subject": "feat(requests): baseline diffs, version history, and API-compat checks"
   }
  ],
  "loc": {
-  "TypeScript": 100816,
+  "TypeScript": 101332,
+  "JavaScript": 77608,
   "OCaml": 18055,
-  "JavaScript": 12593,
+  "CSS": 9273,
   "Python": 5132,
-  "CSS": 4956,
   "Shell": 4066,
-  "HTML": 1940,
+  "HTML": 3797,
   "SQL": 664
  }
 }
