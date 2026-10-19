@@ -1,7 +1,31 @@
 {
- "generated": "2026-10-18T07:16:07+00:00",
+ "generated": "2026-10-19T05:17:10+00:00",
  "repos": 12,
  "commits": [
+  {
+   "repo": "ui-components",
+   "iso": "2026-10-19T00:00:54+01:00",
+   "hash": "16f249b",
+   "subject": "feat(library): promote library entries into the playground via requests"
+  },
+  {
+   "repo": "ui-components",
+   "iso": "2026-10-18T23:54:00+01:00",
+   "hash": "60a6cfd",
+   "subject": "perf(library): lazy-load per-entry data on the detail view"
+  },
+  {
+   "repo": "ui-components",
+   "iso": "2026-10-18T23:52:31+01:00",
+   "hash": "8f288a5",
+   "subject": "feat(library): keep Obsidian vault data in a local-only overlay"
+  },
+  {
+   "repo": "ui-components",
+   "iso": "2026-10-18T23:47:59+01:00",
+   "hash": "0c55661",
+   "subject": "fix(requests): keep nested cn() calls valid in proposal previews"
+  },
   {
    "repo": "edgentranslate",
    "iso": "2026-10-16T22:51:08+01:00",
@@ -457,40 +481,16 @@
    "iso": "2026-10-11T15:05:27+01:00",
    "hash": "c0f348a",
    "subject": "feat(app-replicator): 0.1.0 — product-teardown spec extractor for blind app rebuilds"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-10-06T23:12:09+01:00",
-   "hash": "92afba7",
-   "subject": "feat(model-router): 0.5.1 — the hooks find a key wherever the fleet keeps one"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-10-06T21:57:21+01:00",
-   "hash": "efd3be8",
-   "subject": "fix(model-router): the shared client answers instead of crashing on five inputs"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-10-06T21:49:13+01:00",
-   "hash": "9617da0",
-   "subject": "feat(model-router): 0.5.0 — a shared decision-model client, built on the router's own"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-10-06T21:46:33+01:00",
-   "hash": "9b44a74",
-   "subject": "feat(git-steward): 0.9.0 — branch-scope, the decision work-items was making by habit"
   }
  ],
  "loc": {
-  "TypeScript": 101332,
-  "JavaScript": 77608,
+  "TypeScript": 105580,
+  "JavaScript": 81135,
   "OCaml": 18055,
-  "CSS": 9273,
+  "CSS": 9308,
   "Python": 5132,
-  "Shell": 4066,
-  "HTML": 3797,
+  "Shell": 4387,
+  "HTML": 3809,
   "SQL": 664
  }
 }
