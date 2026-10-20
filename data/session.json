@@ -1,7 +1,217 @@
 {
- "generated": "2026-10-19T07:51:54+00:00",
+ "generated": "2026-10-20T06:34:12+00:00",
  "repos": 12,
  "commits": [
+  {
+   "repo": "my-cv",
+   "iso": "2026-10-20T01:25:43+01:00",
+   "hash": "2694f0a",
+   "subject": "feat(projects): add walkthrough videos for every project"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-10-20T01:25:43+01:00",
+   "hash": "7c9a751",
+   "subject": "fix(projects): keep the dialog video paused with reduced motion on mount"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-10-20T01:25:43+01:00",
+   "hash": "4cfd6e6",
+   "subject": "build(scripts): per-project video flows with a readable hero hold"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-10-20T00:08:12+01:00",
+   "hash": "16af094",
+   "subject": "feat(projects): add walkthrough videos for the featured projects"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-10-20T00:08:12+01:00",
+   "hash": "59af7f7",
+   "subject": "build(scripts): add repeatable project walkthrough video recorder"
+  },
+  {
+   "repo": "ui-components",
+   "iso": "2026-10-19T23:44:30+01:00",
+   "hash": "a7d5d8c",
+   "subject": "ci: restore Playwright e2e on the main pipeline"
+  },
+  {
+   "repo": "edgentranslate",
+   "iso": "2026-10-19T23:43:05+01:00",
+   "hash": "2f12ee3",
+   "subject": "docs: add the v2 design brief"
+  },
+  {
+   "repo": "edgentranslate",
+   "iso": "2026-10-19T23:39:54+01:00",
+   "hash": "0ca652f",
+   "subject": "fix(v2): drop the legacy name and metadata from the placeholder"
+  },
+  {
+   "repo": "edgentranslate",
+   "iso": "2026-10-19T23:38:50+01:00",
+   "hash": "5c64114",
+   "subject": "feat(app): show the v2 link in the /app navigation too"
+  },
+  {
+   "repo": "edgentranslate",
+   "iso": "2026-10-19T23:34:27+01:00",
+   "hash": "71da5b9",
+   "subject": "feat(header): link legacy to v2 behind NEXT_PUBLIC_SHOW_V2_LINK"
+  },
+  {
+   "repo": "edgentranslate",
+   "iso": "2026-10-19T23:34:27+01:00",
+   "hash": "89ee493",
+   "subject": "feat(v2): add the (v2) route group with a work-in-progress page at /v2/"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-10-19T23:31:27+01:00",
+   "hash": "cb20501",
+   "subject": "feat(projects): play the project video in the Featured viewer"
+  },
+  {
+   "repo": "edgentranslate",
+   "iso": "2026-10-19T23:30:59+01:00",
+   "hash": "2cf9928",
+   "subject": "refactor(app): make (legacy) a root layout and keep the 404 via global-not-found"
+  },
+  {
+   "repo": "edgentranslate",
+   "iso": "2026-10-19T23:29:05+01:00",
+   "hash": "5c732ea",
+   "subject": "refactor(app): move the current UI into the (legacy) route group"
+  },
+  {
+   "repo": "ui-components",
+   "iso": "2026-10-19T20:19:53Z",
+   "hash": "b051872",
+   "subject": "chore(ci): pin infra include ref to consumer/ui-components@0c0af8c8c320"
+  },
+  {
+   "repo": "sonora",
+   "iso": "2026-10-19T20:19:46Z",
+   "hash": "f8769fc5",
+   "subject": "chore(ci): pin infra include ref to consumer/sonora@a58f1f908bbe"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-10-19T20:17:04Z",
+   "hash": "9ce4401",
+   "subject": "chore(ci): pin infra include ref to consumer/my-cv@defc83ac9b43"
+  },
+  {
+   "repo": "edgentranslate",
+   "iso": "2026-10-19T20:16:49Z",
+   "hash": "1b3bcf1",
+   "subject": "chore(ci): pin infra include ref to consumer/edgentranslate@5dcd02ba9653"
+  },
+  {
+   "repo": "edgenchat",
+   "iso": "2026-10-19T20:16:42Z",
+   "hash": "b0d8e24",
+   "subject": "chore(ci): pin infra include ref to consumer/edgenchat@d69d4289f5e2"
+  },
+  {
+   "repo": "cash-register",
+   "iso": "2026-10-19T20:16:35Z",
+   "hash": "d607f79",
+   "subject": "chore(ci): pin infra include ref to consumer/cash_register@7a3c1cae07bb"
+  },
+  {
+   "repo": "agentic-hub",
+   "iso": "2026-10-19T20:16:28Z",
+   "hash": "bb21364",
+   "subject": "chore(ci): pin infra include ref to consumer/agentichub@2b59040614d8"
+  },
+  {
+   "repo": "ui-components",
+   "iso": "2026-10-19T20:05:37Z",
+   "hash": "6f7faeb",
+   "subject": "chore(ci): pin infra include ref to consumer/ui-components@6c3bb9626ee3"
+  },
+  {
+   "repo": "sonora",
+   "iso": "2026-10-19T20:05:28Z",
+   "hash": "cdb15687",
+   "subject": "chore(ci): pin infra include ref to consumer/sonora@39f5f1730771"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-10-19T20:04:50Z",
+   "hash": "50a1d73",
+   "subject": "chore(ci): pin infra include ref to consumer/my-cv@714cca4fbc20"
+  },
+  {
+   "repo": "edgentranslate",
+   "iso": "2026-10-19T20:04:33Z",
+   "hash": "fb02f60",
+   "subject": "chore(ci): pin infra include ref to consumer/edgentranslate@099c68c1d4c9"
+  },
+  {
+   "repo": "edgenchat",
+   "iso": "2026-10-19T20:04:24Z",
+   "hash": "baaa6b6",
+   "subject": "chore(ci): pin infra include ref to consumer/edgenchat@4ec03ac4135f"
+  },
+  {
+   "repo": "cash-register",
+   "iso": "2026-10-19T20:04:15Z",
+   "hash": "1bace63",
+   "subject": "chore(ci): pin infra include ref to consumer/cash_register@e99f52b4f1e6"
+  },
+  {
+   "repo": "agentic-hub",
+   "iso": "2026-10-19T20:04:06Z",
+   "hash": "f741575",
+   "subject": "chore(ci): pin infra include ref to consumer/agentichub@3c42faef4300"
+  },
+  {
+   "repo": "ui-components",
+   "iso": "2026-10-19T15:04:45+01:00",
+   "hash": "c336165",
+   "subject": "fix(components): make the hidden sticky sidebar unreachable"
+  },
+  {
+   "repo": "ui-components",
+   "iso": "2026-10-19T15:03:08+01:00",
+   "hash": "2dd3d3e",
+   "subject": "fix(playground): drive Slider and Input examples through value"
+  },
+  {
+   "repo": "ui-components",
+   "iso": "2026-10-19T15:01:59+01:00",
+   "hash": "abf6994",
+   "subject": "test(e2e): assert non-visual props are listed disabled"
+  },
+  {
+   "repo": "ui-components",
+   "iso": "2026-10-19T14:50:39+01:00",
+   "hash": "36b6eeb",
+   "subject": "fix(card): let size set the padding unless padding is given"
+  },
+  {
+   "repo": "ui-components",
+   "iso": "2026-10-19T12:12:35+01:00",
+   "hash": "ae0cdf3",
+   "subject": "feat(playground): disable props that cannot change the preview"
+  },
+  {
+   "repo": "ui-components",
+   "iso": "2026-10-19T12:08:35+01:00",
+   "hash": "7324374",
+   "subject": "fix(components): make showcase previews non-interactive"
+  },
+  {
+   "repo": "ui-components",
+   "iso": "2026-10-19T11:34:59+01:00",
+   "hash": "cf6d022",
+   "subject": "fix(playground): keep emptied string props as \"\" instead of unset"
+  },
   {
    "repo": "ui-components",
    "iso": "2026-10-19T00:00:54+01:00",
@@ -271,221 +481,11 @@
    "iso": "2026-10-16T12:22:59+01:00",
    "hash": "ebd5d0b",
    "subject": "feat(voxelcraft): the crouch — a lower eye, a shorter box, a gripped rung"
-  },
-  {
-   "repo": "edgentranslate",
-   "iso": "2026-10-16T12:22:15+01:00",
-   "hash": "3d608ea",
-   "subject": "test(e2e): add Playwright checks for file rejection and compare formats"
-  },
-  {
-   "repo": "edgentranslate",
-   "iso": "2026-10-16T12:22:15+01:00",
-   "hash": "07ad148",
-   "subject": "fix(compare): render DOCX and stop passing non-PDFs to react-pdf"
-  },
-  {
-   "repo": "edgentranslate",
-   "iso": "2026-10-16T12:21:56+01:00",
-   "hash": "5a90811",
-   "subject": "fix(dropzone): report the real reason a file was rejected"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-10-16T12:20:36+01:00",
-   "hash": "46f4c59",
-   "subject": "fix(git-steward): 0.9.2 — never queue a gone branch that still holds unmerged work"
-  },
-  {
-   "repo": "claude-arcade",
-   "iso": "2026-10-16T12:20:27+01:00",
-   "hash": "618ab0d",
-   "subject": "feat(voxelcraft): rarity -> value — one shared worth for every item"
-  },
-  {
-   "repo": "edgenchat",
-   "iso": "2026-10-16T12:17:00+01:00",
-   "hash": "eb782bf",
-   "subject": "fix(chat): wire up voice dictation and text-file attachments in composer"
-  },
-  {
-   "repo": "ui-components",
-   "iso": "2026-10-16T12:15:20+01:00",
-   "hash": "2ae4ca2",
-   "subject": "feat(playground): explain locked resize handles with toolbar hint"
-  },
-  {
-   "repo": "claude-arcade",
-   "iso": "2026-10-16T12:15:03+01:00",
-   "hash": "955283b",
-   "subject": "test(voxelcraft): headless boot suite + a node shim for the pure modules"
-  },
-  {
-   "repo": "claude-arcade",
-   "iso": "2026-10-16T12:15:03+01:00",
-   "hash": "dd129fa",
-   "subject": "docs(voxelcraft): CLAUDE.md + DIRECTION.md, the foundation pair"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-10-16T10:29:20+01:00",
-   "hash": "0a8f159",
-   "subject": "feat(code-maps): 0.2.0 — architecture-map: the bytecode graph at three granularities, as pages that are also the editor"
-  },
-  {
-   "repo": "edgentranslate",
-   "iso": "2026-10-15T17:45:41+01:00",
-   "hash": "82a6b86",
-   "subject": "fix(pdf): preview docx, text and images in the compare view"
-  },
-  {
-   "repo": "edgentranslate",
-   "iso": "2026-10-15T17:20:47+01:00",
-   "hash": "7e13451",
-   "subject": "fix(app): translate the compare dialog title"
-  },
-  {
-   "repo": "edgentranslate",
-   "iso": "2026-10-15T17:16:41+01:00",
-   "hash": "42645d6",
-   "subject": "fix(hero): let the compare panel shrink below 1600px"
-  },
-  {
-   "repo": "edgenchat",
-   "iso": "2026-10-15T15:57:09+01:00",
-   "hash": "872b205",
-   "subject": "docs(readme): document connection status and error meanings"
-  },
-  {
-   "repo": "edgenchat",
-   "iso": "2026-10-15T15:57:09+01:00",
-   "hash": "9e1fc4c",
-   "subject": "feat(connection): add Ollama connection status, classified errors and gated send"
-  },
-  {
-   "repo": "sonora",
-   "iso": "2026-10-15T15:50:22+01:00",
-   "hash": "b15ef6af",
-   "subject": "feat(voices): show remaining ElevenLabs character credits"
-  },
-  {
-   "repo": "sonora",
-   "iso": "2026-10-15T15:50:03+01:00",
-   "hash": "3a79e45e",
-   "subject": "refactor(voices): remove the created_at column from the voices list"
-  },
-  {
-   "repo": "sonora",
-   "iso": "2026-10-15T15:49:50+01:00",
-   "hash": "62fc6fe8",
-   "subject": "feat(voices): add test connection button for the ElevenLabs key"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-10-15T15:49:21+01:00",
-   "hash": "8ed5785",
-   "subject": "chore(ui-ux-studio): bump to 0.4.1 for the gallery screenshots and HTML panel"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-10-15T15:47:58+01:00",
-   "hash": "b456e78",
-   "subject": "feat(gallery): show the extracted HTML of each reference (#1)"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-10-15T15:45:18+01:00",
-   "hash": "ac3ced0",
-   "subject": "feat(gallery): show every screenshot of a reference (#1)"
-  },
-  {
-   "repo": "cash-register",
-   "iso": "2026-10-15T15:45:07+01:00",
-   "hash": "6e17da0",
-   "subject": "fix(caixa): keep fly-to-cart price tags under the mobile cart bar"
-  },
-  {
-   "repo": "cash-register",
-   "iso": "2026-10-15T15:45:07+01:00",
-   "hash": "37b72f4",
-   "subject": "fix(caixa): show full product names on cards"
-  },
-  {
-   "repo": "cash-register",
-   "iso": "2026-10-15T15:45:07+01:00",
-   "hash": "9213133",
-   "subject": "fix(pages): export each route as <route>/index.html so deep links load"
-  },
-  {
-   "repo": "edgentranslate",
-   "iso": "2026-10-15T15:38:00+01:00",
-   "hash": "ded5d31",
-   "subject": "feat(hero): add es/fr sample translations and a per-language manifest"
-  },
-  {
-   "repo": "agentic-hub",
-   "iso": "2026-10-15T15:33:37+01:00",
-   "hash": "ea60866",
-   "subject": "fix(ui): real footer destinations and one card CTA label"
-  },
-  {
-   "repo": "edgentranslate",
-   "iso": "2026-10-15T15:33:24+01:00",
-   "hash": "16b20d4",
-   "subject": "fix(pdf): load the PDF.js worker from an absolute URL"
-  },
-  {
-   "repo": "agentic-hub",
-   "iso": "2026-10-15T15:33:05+01:00",
-   "hash": "fc0e4d7",
-   "subject": "feat(agents): price and rating filters, URL-synced category filtering"
-  },
-  {
-   "repo": "agentic-hub",
-   "iso": "2026-10-15T15:31:37+01:00",
-   "hash": "8c6e92a",
-   "subject": "fix(agents): keep back button clear of the category icon on phones"
-  },
-  {
-   "repo": "edgentranslate",
-   "iso": "2026-10-15T15:28:59+01:00",
-   "hash": "fa1275b",
-   "subject": "fix(hero): show the clicked sample file instead of the previous one"
-  },
-  {
-   "repo": "my-cv",
-   "iso": "2026-10-15T15:28:03+01:00",
-   "hash": "c838001",
-   "subject": "fix(i18n): translate hard-coded strings in the rendered UI"
-  },
-  {
-   "repo": "edgentranslate",
-   "iso": "2026-10-15T15:27:49+01:00",
-   "hash": "b0afe8a",
-   "subject": "fix(form): only validate translate form after a submit attempt"
-  },
-  {
-   "repo": "my-cv",
-   "iso": "2026-10-15T15:23:45+01:00",
-   "hash": "33f3316",
-   "subject": "fix(projects): centre the project dialog in the viewport"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-10-11T15:05:27+01:00",
-   "hash": "a5ae06a",
-   "subject": "feat(project-genesis): 0.4.0 — seed PRODUCT/FEATURES from a replication spec"
-  },
-  {
-   "repo": "claude-skills",
-   "iso": "2026-10-11T15:05:27+01:00",
-   "hash": "c0f348a",
-   "subject": "feat(app-replicator): 0.1.0 — product-teardown spec extractor for blind app rebuilds"
   }
  ],
  "loc": {
-  "TypeScript": 105580,
-  "JavaScript": 81135,
+  "TypeScript": 107069,
+  "JavaScript": 81161,
   "OCaml": 18055,
   "CSS": 9308,
   "Python": 5132,
