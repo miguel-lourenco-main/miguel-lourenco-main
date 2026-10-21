@@ -1,7 +1,25 @@
 {
- "generated": "2026-10-20T07:39:17+00:00",
+ "generated": "2026-10-21T05:16:34+00:00",
  "repos": 12,
  "commits": [
+  {
+   "repo": "my-cv",
+   "iso": "2026-10-20T23:58:50+01:00",
+   "hash": "66bec66",
+   "subject": "feat(projects): ship v3 walkthrough videos for all ten projects"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-10-20T12:35:43+01:00",
+   "hash": "fa93716",
+   "subject": "feat(projects): re-record walkthrough videos with faster pacing and ship the four that clear review"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-10-20T11:44:48+01:00",
+   "hash": "e0c3a3e",
+   "subject": "fix: default to the ~/Desktop/workspace paths"
+  },
   {
    "repo": "my-cv",
    "iso": "2026-10-20T01:25:43+01:00",
@@ -463,31 +481,13 @@
    "iso": "2026-10-16T12:25:36+01:00",
    "hash": "4e92534",
    "subject": "fix(projects): make the project dialog a single scroll container"
-  },
-  {
-   "repo": "claude-arcade",
-   "iso": "2026-10-16T12:24:54+01:00",
-   "hash": "2097d5c",
-   "subject": "feat(voxelcraft): saturation — a good meal fills you for longer"
-  },
-  {
-   "repo": "sonora",
-   "iso": "2026-10-16T12:23:49+01:00",
-   "hash": "5a45f16c",
-   "subject": "refactor(voices): play free ElevenLabs samples in voice preview"
-  },
-  {
-   "repo": "claude-arcade",
-   "iso": "2026-10-16T12:22:59+01:00",
-   "hash": "ebd5d0b",
-   "subject": "feat(voxelcraft): the crouch — a lower eye, a shorter box, a gripped rung"
   }
  ],
  "loc": {
-  "TypeScript": 107069,
+  "TypeScript": 107373,
   "JavaScript": 81161,
   "OCaml": 18055,
-  "CSS": 9308,
+  "CSS": 9398,
   "Python": 5132,
   "Shell": 4387,
   "HTML": 3809,
