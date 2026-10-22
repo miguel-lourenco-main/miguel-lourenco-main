@@ -1,7 +1,19 @@
 {
- "generated": "2026-10-21T07:43:30+00:00",
+ "generated": "2026-10-22T07:38:54+00:00",
  "repos": 12,
  "commits": [
+  {
+   "repo": "claude-skills",
+   "iso": "2026-10-21T10:57:33+01:00",
+   "hash": "7a4d509",
+   "subject": "feat: code-maps 0.2.0 — flow-diagram skill (data and execution flow, as the code executes it)"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-10-21T10:00:44+01:00",
+   "hash": "f1e424a",
+   "subject": "feat(projects): ship v4 continuous-take walkthrough videos for all ten projects"
+  },
   {
    "repo": "my-cv",
    "iso": "2026-10-20T23:58:50+01:00",
@@ -469,18 +481,6 @@
    "iso": "2026-10-16T12:32:26+01:00",
    "hash": "c92b790",
    "subject": "feat(library): ingest components from other projects' source into a library"
-  },
-  {
-   "repo": "claude-arcade",
-   "iso": "2026-10-16T12:25:56+01:00",
-   "hash": "057f4a1",
-   "subject": "feat(voxelcraft): the water's pull — swimmers always drift down"
-  },
-  {
-   "repo": "my-cv",
-   "iso": "2026-10-16T12:25:36+01:00",
-   "hash": "4e92534",
-   "subject": "fix(projects): make the project dialog a single scroll container"
   }
  ],
  "loc": {
