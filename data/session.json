@@ -1,7 +1,49 @@
 {
- "generated": "2026-10-29T08:35:15+00:00",
+ "generated": "2026-10-30T06:24:31+00:00",
  "repos": 12,
  "commits": [
+  {
+   "repo": "ui-components",
+   "iso": "2026-10-29T12:13:23Z",
+   "hash": "e1758ca",
+   "subject": "chore(ci): pin infra include ref to consumer/ui-components@4762cd5c806d"
+  },
+  {
+   "repo": "sonora",
+   "iso": "2026-10-29T12:13:16Z",
+   "hash": "ae9413be",
+   "subject": "chore(ci): pin infra include ref to consumer/sonora@1a2c7bb0b539"
+  },
+  {
+   "repo": "my-cv",
+   "iso": "2026-10-29T12:10:27Z",
+   "hash": "81b7d1e",
+   "subject": "chore(ci): pin infra include ref to consumer/my-cv@e159210be6c4"
+  },
+  {
+   "repo": "edgentranslate",
+   "iso": "2026-10-29T12:10:14Z",
+   "hash": "265161d",
+   "subject": "chore(ci): pin infra include ref to consumer/edgentranslate@0a74be8d3bf9"
+  },
+  {
+   "repo": "edgenchat",
+   "iso": "2026-10-29T12:10:06Z",
+   "hash": "f9dacfa",
+   "subject": "chore(ci): pin infra include ref to consumer/edgenchat@43c2813da964"
+  },
+  {
+   "repo": "cash-register",
+   "iso": "2026-10-29T12:09:59Z",
+   "hash": "fc24c99",
+   "subject": "chore(ci): pin infra include ref to consumer/cash_register@984b51de32b9"
+  },
+  {
+   "repo": "agentic-hub",
+   "iso": "2026-10-29T12:09:52Z",
+   "hash": "793d2a6",
+   "subject": "chore(ci): pin infra include ref to consumer/agentichub@f16867f32862"
+  },
   {
    "repo": "claude-skills",
    "iso": "2026-10-21T10:57:33+01:00",
@@ -439,48 +481,6 @@
    "iso": "2026-10-16T12:44:28+01:00",
    "hash": "626d06e",
    "subject": "feat(voxelcraft): ore veins — +10% ore, in clusters capped by rarity"
-  },
-  {
-   "repo": "claude-arcade",
-   "iso": "2026-10-16T12:40:37+01:00",
-   "hash": "37ca85e",
-   "subject": "feat(voxelcraft): finite stock and the raider's fork — friend or raider"
-  },
-  {
-   "repo": "cash-register",
-   "iso": "2026-10-16T12:38:57+01:00",
-   "hash": "7911778",
-   "subject": "feat(layout): merge top bar and side rail into one frame"
-  },
-  {
-   "repo": "claude-arcade",
-   "iso": "2026-10-16T12:37:12+01:00",
-   "hash": "3c68454",
-   "subject": "feat(voxelcraft): fair-value trades — priced by worth, skewed by birth and standing"
-  },
-  {
-   "repo": "edgentranslate",
-   "iso": "2026-10-16T12:35:25+01:00",
-   "hash": "d25a61e",
-   "subject": "feat(cli): translate Markdown and TXT files from the command line"
-  },
-  {
-   "repo": "edgentranslate",
-   "iso": "2026-10-16T12:35:25+01:00",
-   "hash": "6631520",
-   "subject": "feat(engine): add a provider-agnostic translation engine"
-  },
-  {
-   "repo": "claude-arcade",
-   "iso": "2026-10-16T12:34:42+01:00",
-   "hash": "a7ba1ac",
-   "subject": "feat(voxelcraft): Standing — what a Living Stead thinks of you"
-  },
-  {
-   "repo": "ui-components",
-   "iso": "2026-10-16T12:32:26+01:00",
-   "hash": "c92b790",
-   "subject": "feat(library): ingest components from other projects' source into a library"
   }
  ],
  "loc": {
