@@ -1,7 +1,13 @@
 {
- "generated": "2026-11-11T09:30:20+00:00",
+ "generated": "2026-11-12T09:53:46+00:00",
  "repos": 12,
  "commits": [
+  {
+   "repo": "claude-skills",
+   "iso": "2026-11-11T18:13:17Z",
+   "hash": "0720cbb",
+   "subject": "feat(marketing-presentations): ship the five Playwright verification tools"
+  },
   {
    "repo": "ui-components",
    "iso": "2026-10-29T12:13:23Z",
@@ -475,12 +481,6 @@
    "iso": "2026-10-16T12:44:43+01:00",
    "hash": "c83624e",
    "subject": "fix(3d): keep the scene usable after leaving a full-screen window"
-  },
-  {
-   "repo": "claude-arcade",
-   "iso": "2026-10-16T12:44:28+01:00",
-   "hash": "626d06e",
-   "subject": "feat(voxelcraft): ore veins — +10% ore, in clusters capped by rarity"
   }
  ],
  "loc": {
