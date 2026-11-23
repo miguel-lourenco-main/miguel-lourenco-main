@@ -1,7 +1,13 @@
 {
- "generated": "2026-11-22T09:50:58+00:00",
+ "generated": "2026-11-23T10:51:17+00:00",
  "repos": 12,
  "commits": [
+  {
+   "repo": "claude-skills",
+   "iso": "2026-11-22T14:17:19Z",
+   "hash": "80c61ff",
+   "subject": "model-router 0.6.0: plan-aware routing per account"
+  },
   {
    "repo": "claude-skills",
    "iso": "2026-11-11T18:13:17Z",
@@ -475,12 +481,6 @@
    "iso": "2026-10-16T12:44:44+01:00",
    "hash": "396d9b1",
    "subject": "feat(3d): guide arrows between windows in full-screen mode"
-  },
-  {
-   "repo": "my-cv",
-   "iso": "2026-10-16T12:44:43+01:00",
-   "hash": "c83624e",
-   "subject": "fix(3d): keep the scene usable after leaving a full-screen window"
   }
  ],
  "loc": {
